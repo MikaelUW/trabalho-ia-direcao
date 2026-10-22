@@ -1,0 +1,71 @@
+{
+  "tipo": "agrupamento_kmeans",
+  "k": 4,
+  "features": [
+    "vel",
+    "pitch",
+    "roll",
+    "slope"
+  ],
+  "clusters": {
+    "0": {
+      "nome": "cidade/manobra",
+      "centro": {
+        "vel": 6.98,
+        "pitch": -1.95,
+        "roll": -3.68,
+        "slope": 2.88
+      },
+      "n": 1045
+    },
+    "1": {
+      "nome": "pista (rapido)",
+      "centro": {
+        "vel": 85.35,
+        "pitch": -3.44,
+        "roll": 1.64,
+        "slope": 5.62
+      },
+      "n": 149
+    },
+    "2": {
+      "nome": "cidade declive",
+      "centro": {
+        "vel": 14.36,
+        "pitch": 3.69,
+        "roll": -1.27,
+        "slope": -7.04
+      },
+      "n": 387
+    },
+    "3": {
+      "nome": "cidade aclive",
+      "centro": {
+        "vel": 11.63,
+        "pitch": -6.79,
+        "roll": 1.22,
+        "slope": 11.33
+      },
+      "n": 333
+    }
+  },
+  "limites_observados": {
+    "vel": {
+      "min": 0.0,
+      "max": 115.0
+    },
+    "pitch": {
+      "min": -19.0,
+      "max": 22.0
+    },
+    "roll": {
+      "min": -25.0,
+      "max": 21.0
+    },
+    "slope": {
+      "min": -36.0,
+      "max": 30.0
+    }
+  },
+  "seed": 42
+}

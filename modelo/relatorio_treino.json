@@ -1,0 +1,95 @@
+{
+  "n": 1914,
+  "features": [
+    "vel",
+    "pitch",
+    "roll",
+    "slope"
+  ],
+  "ks_comparados": [
+    3,
+    4
+  ],
+  "modelos": {
+    "k3": {
+      "k": 3,
+      "silhueta": 0.3589,
+      "perfil": [
+        {
+          "cluster": 0,
+          "vel": 6.78,
+          "pitch": -3.38,
+          "roll": -2.52,
+          "slope": 5.34,
+          "nome": "cidade/manobra",
+          "n": 1252
+        },
+        {
+          "cluster": 1,
+          "vel": 15.22,
+          "pitch": 3.02,
+          "roll": -2.0,
+          "slope": -5.79,
+          "nome": "cidade declive",
+          "n": 488
+        },
+        {
+          "cluster": 2,
+          "vel": 77.74,
+          "pitch": -3.65,
+          "roll": 2.56,
+          "slope": 5.98,
+          "nome": "pista (rapido)",
+          "n": 174
+        }
+      ],
+      "figura_pca": "clusters_pca_k3.png",
+      "figura_pares": "clusters_pares_k3.png"
+    },
+    "k4": {
+      "k": 4,
+      "silhueta": 0.3699,
+      "perfil": [
+        {
+          "cluster": 0,
+          "vel": 6.98,
+          "pitch": -1.95,
+          "roll": -3.68,
+          "slope": 2.88,
+          "nome": "cidade/manobra",
+          "n": 1045
+        },
+        {
+          "cluster": 1,
+          "vel": 85.35,
+          "pitch": -3.44,
+          "roll": 1.64,
+          "slope": 5.62,
+          "nome": "pista (rapido)",
+          "n": 149
+        },
+        {
+          "cluster": 2,
+          "vel": 14.36,
+          "pitch": 3.69,
+          "roll": -1.27,
+          "slope": -7.04,
+          "nome": "cidade declive",
+          "n": 387
+        },
+        {
+          "cluster": 3,
+          "vel": 11.63,
+          "pitch": -6.79,
+          "roll": 1.22,
+          "slope": 11.33,
+          "nome": "cidade aclive",
+          "n": 333
+        }
+      ],
+      "figura_pca": "clusters_pca_k4.png",
+      "figura_pares": "clusters_pares_k4.png"
+    }
+  },
+  "k_escolhido": 4
+}
