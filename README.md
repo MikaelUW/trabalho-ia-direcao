@@ -4,7 +4,7 @@ Trabalho prático de Tópicos Avançados em Inteligência Artificial.
 
 **Integrantes:** Mikael Guilherme Zana e Gabriella Cespedes.
 
-**Link da aplicação publicada:** _(preencher após o deploy — veja a seção "Deploy")_
+**Link da aplicação publicada:** https://trabalho-ia-direcao.streamlit.app/
 
 ---
 
