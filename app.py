@@ -150,19 +150,6 @@ with aba_classificar:
     ])
     st.dataframe(tabela, hide_index=True)
 
-    st.subheader("limitações importantes")
-    st.markdown(
-        """
-- o agrupamento é **não supervisionado**: os clusters são perfis de direção
-  (ex: cidade, pista, aclive/declive), não categorias com rótulo oficial. os nomes
-  são uma **interpretação** do perfil médio de cada grupo.
-- a decisão é sobre **um único report** (~15s). o cluster indica o contexto de direção
-  mais provável daquele instante, não a identidade de quem dirige.
-- o agrupamento é dominado por **velocidade e aclive/declive**; o estilo fino de
-  pilotagem (curvas) tem peso menor.
-- o resultado é uma **estimativa**, não uma certeza.
-"""
-    )
     st.caption(f"modelo em uso: k-means (k={meta['k']}) | inferência sem re-treino")
 
 
