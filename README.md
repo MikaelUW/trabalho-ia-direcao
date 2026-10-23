@@ -53,7 +53,7 @@ entrega/
   dados/mapa_dados.csv     # lat/lon + cluster de cada report (aba de mapa)
   modelo/                  # modelo salvo (scaler + kmeans) + metadados + relatório
   figuras/                 # gráficos (clusters, silhueta, distribuições)
-  relatorio/               # relatório em typst + pdf
+  relatorio/               # relatório (pdf)
 ```
 
 ## Como executar localmente
