@@ -6,6 +6,8 @@ Trabalho prático de Tópicos Avançados em Inteligência Artificial.
 
 **Link da aplicação publicada:** https://trabalho-ia-direcao.streamlit.app/
 
+**Repositório (código-fonte):** https://github.com/MikaelUW/trabalho-ia-direcao
+
 ---
 
 ## O que o projeto faz
